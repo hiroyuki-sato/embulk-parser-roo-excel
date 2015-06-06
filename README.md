@@ -9,7 +9,7 @@ Read Microsoft Excel(xlsx) files from input plugins.
 
 ## Configuration
 
-- **skip_header_lines**: description (integer, default: 0)
+- **skip_header_lines**: Skip this number of lines first. Set 1 if the file has header line. (integer, default: 0)
 - **sheet**: the name of sheet (string, default: null (first sheet))
 
 ## Example
